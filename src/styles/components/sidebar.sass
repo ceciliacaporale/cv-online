@@ -1,0 +1,31 @@
+@use '../variables'
+@use '../mixins'
+
+#sidebar
+    background-color: variables.$bg-color
+    flex: 1 1 0
+    border-radius: variables.$container-border-radius
+    display: flex
+    flex-direction: column
+    align-items: center
+    text-align: center
+    position: relative
+    padding: 2rem 0
+    box-shadow: 0px 0px 17px 1px rgba(116, 115, 115, 0.46)
+
+    img
+        max-width: 60%
+        box-shadow: 0px 0px 17px 1px rgba(116, 115, 115, 0.46)
+        border-radius: variables.$container-border-radius
+        position: absolute
+        top: -2rem
+
+    .title
+        color: #96655b
+        margin-top: 10rem
+        padding: .8rem 1.2rem
+        font-size: 20px
+
+    .btn
+       text-decoration: none
+       color: #86635c
